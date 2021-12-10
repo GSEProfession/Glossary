@@ -12,11 +12,36 @@ h1 {
   background-position: 10px 10px;
   background-repeat: no-repeat;
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
+}
+
+body {
+	font-family: arial, Helvetica, sans-serif;
+}
+
+table {
+  font-family: arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+table td {
+  text-align: left;
+  padding: 12px;
+}
+
+table th {
+  text-align: left;
+  padding: 12px;
+}
+
+table tr.header {
+  background-color: #f1f1f1;
 }
 
 #myTable {
@@ -26,17 +51,15 @@ h1 {
   font-size: 18px;
 }
 
-#myTable th, #myTable td {
-  font-family: Arial, Helvetica, sans-serif;
+#myTable td {
   text-align: left;
   padding: 12px;
 }
 
 #myTable tr {
-  font-family: Arial, Helvetica, sans-serif;
   border-bottom: 1px solid #ddd;
 }
 
-#myTable tr.header, #myTable tr:hover {
+#myTable tr:hover {
   background-color: #f1f1f1;
 }
