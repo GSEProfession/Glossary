@@ -37,21 +37,21 @@ h2 {
   font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
   margin-left: 10px;
   margin-right: 10px;
-  font-weight: medium;
+  font-weight: 400px;
   font-size: 24px;
 }
 h3 {
   font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
   margin-left: 10px;
   margin-right: 10px;
-  font-weight: medium;
+  font-weight: 300px;
   font-size: 20px;
 }
 p {
   font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
   margin-left: 10px;
   margin-right: 10px;
-  font-weight: lighter;
+  font-weight: 200px;
 }
 #myInput {
   width: 60%;
