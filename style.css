@@ -18,9 +18,8 @@
 
 .grid-container > div {
   background-color: #ffffff;
-  text-align: center;
+  text-align: left;
   padding: 20px 0;
-  font-size: 30px;
 }
 
 body {
