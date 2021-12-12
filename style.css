@@ -1,67 +1,84 @@
 .item1 { grid-area: header; }
-.item2 { grid-area: intro; }
-.item3 { grid-area: info; }
-.item4 { grid-area: main; }
-.item5 { grid-area: footer; }
+.item2 { grid-area: logo; }
+.item3 { grid-area: intro; }
+.item4 { grid-area: info; }
+.item5 { grid-area: main; }
+.item6 { grid-area: footer; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'intro intro intro intro info info'
-    'main main main main main main'
-    'footer footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: #000000;
-  padding: 10px;
+    'header header header header header header header logo'
+    'intro intro intro intro intro intro info info'
+    'main main main main main main main main'
+    'footer footer footer footer footer footer footer footer';
+  grid-gap: 5px;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0px;
 }
 
 .grid-container > div {
   background-color: #ffffff;
 }
-
 body {
   font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
   background-color: #ffffff;
-  margin-left: 20px;
   text-align: left;
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 20px;
+  font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+h2 {
+  font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: medium;
+  font-size: 24px;
+}
+h3 {
+  font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: medium;
+  font-size: 20px;
+}
+p {
+  font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: lighter;
 }
 #myInput {
-  background-image: url('/css/searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
+  width: 60%;
   font-size: 16px;
-  padding: 12px 20px 12px 40px;
+  padding: 10px 10px 10px 10px;
   border: 1px solid #ddd;
-  margin-bottom: 12px;
-}
-
-body {
-	font-family: arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 table {
-  font-family: arial, Helvetica, sans-serif;
+  font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
   border-collapse: collapse;
   width: 100%;
   border: 1px solid #ddd;
-  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 table td {
   text-align: left;
-  padding: 12px;
+  padding: 10px;
 }
 
 table th {
   text-align: left;
-  padding: 12px;
+  padding: 10px;
 }
 
 table tr.header {
@@ -73,6 +90,8 @@ table tr.header {
   width: 100%;
   border: 1px solid #ddd;
   font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #myTable td {
